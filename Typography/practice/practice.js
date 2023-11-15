@@ -20,9 +20,9 @@ let tX,tY,sp,dspx,dspy,fct;
 
 function setup() {
 
-  createCanvas(400, 400);
+  createCanvas(700, 400);
   createSliders();
-  pg = createGraphics(400, 400);
+  pg = createGraphics(700, 400);
 
 }
 
@@ -35,11 +35,11 @@ function draw() {
   pg.background(0);
   pg.fill(255);
   // pg.textFont(font);
-  pg.textSize(400);
+  pg.textSize(200);
   pg.push();
   pg.translate(width/2, height/2);
   pg.textAlign(CENTER, CENTER);
-  pg.text("a", 0, 0);
+  pg.text("Good", 0, 0);
   pg.pop();
 
 
